@@ -17,51 +17,47 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
 
-    <div class="container">
-      <section class="landscape">
-        <picture>
+    <section>
+      <picture>
+        
+          <!-- V Landscape images start here V -->
 
-          <source srcset="images/landscape-320x180.jpg,
+          <source class="landscape" srcset="images/landscape-320x180.jpg,
           images/landcape-640x360.jpg 2x,
           images/landscape-960x540.jpg 3x" media="(max-width: 320px)">
 
-          <source srcset="images/landscape-480x270.jpg,
+          <source class="landscape" srcset="images/landscape-480x270.jpg,
           images/landscape-960x540.jpg 2x,
           images/landscape-1440x810.jpg 3x" media="(max-width: 480px)">
 
-          <source srcset="images/landscape-720x405.jpg,
+          <source class="landscape" srcset="images/landscape-720x405.jpg,
           images/landscape-1440x810.jpg 2x,
           images/landscape-2160x1215.jpg 3x" media="(max-width: 720px)">
 
-          <source srcset="images/landscape-960x540.jpg,
+          <source class="landscape" srcset="images/landscape-960x540.jpg,
           images/landscape-1920x1080.jpg 2x,
           images/landscape-2880x1621.jpg 3x" media="(max-width: 960px)">
 
-          <img src="./images/landcape-640x360.jpg" alt="Image of the inside of a museum.">
-          
-        </picture>
-      </section>
-      
-      <section class="square">
-        <picture>
-          
-          <source srcset="images/square-800.jpg,
+          <img class="landscape" src="images/landcape-640x360.jpg" alt="Image of the inside of a museum.">
+            
+          <!-- V Square images start here V -->
+
+          <source class="square" srcset="images/square-800.jpg,
           images/square-1600.jpg 2x,
           images/square-2400.jpg 3x" media="(min-width: 1600px)">
 
-          <source srcset="images/square-640.jpg,
+          <source class="square" srcset="images/square-640.jpg,
           images/square-1280.jpg 2x,
           images/square-1920.jpg 3x" media="(min-width: 1280px)">
 
-          <source srcset="images/square-480.jpg,
+          <source class="square" srcset="images/square-480.jpg,
           images/square-960.jpg 2x,
-          images/square-1440.jpg 3x" media="(min-width: 1440px)">
+          images/square-1440.jpg 3x" media="(min-width: 960px)">
 
-          <img src="./images/square-1280.jpg" alt="Picture of the inside of a museum">
-          
-        </picture>
-      </section>
-    </div>
+          <img class="square" src="images/square-1280.jpg" alt="Picture of the inside of a museum">
+        
+      </picture>
+    </section>
   </header>
 </body>
 </html>
